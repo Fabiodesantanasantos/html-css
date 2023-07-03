@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    text-align: center;
+}
+
+/* en HTML é id em CSS é # (só pode um elemento)*/
+/* en HTML é class em CSS é . (pode mais de um elemento) */
+
+body {
+    background-image: linear-gradient(to right, #034159, #025951, #02735E);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+}
+
+h1 {
+    color: #0bff61;
+}
+
+#h1-principal {
+    color: #034159;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 510px;
+    margin: auto;
+}
+
+p {
+    color: white;
+    line-height: 1em;
+    
+}
+
+.h2-basico {
+    color: #1aff00;
+}
+
+.h2-intermediario {
+    color: #eeff02;
+}
+
+.h2-avancado {
+    color: #fc0000;
+}
+
+.destaque {
+    background-color: #ffffff;
+}
+
+

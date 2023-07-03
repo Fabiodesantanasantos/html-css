@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* box-level */
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray; */
+            border: 10px solid darkslategray;
+
+           padding: 10px 10px 10px 10px;
+           margin: 20px auto 40px auto;
+
+           /* outline-width: 5px;
+           outline-style: dotted;
+           outline-color: red; */
+           outline: 5px dotted red;
+        }
+
+        /* inline-level */
+        a {
+           /* border-width: 10px; */
+           /* border-style: groove; */
+           /* border-color: red; */
+           border-radius: 10px;
+           border: 10px groove red;
+           padding: 10px 10px 10px 10px;
+        }
+        p {
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Box Level</h1>
+    <p>
+        Parágrafos também são exemplos de Box-level, mas os<a href="#"> links são exemplos de box inline-level</a>
+    </p>
+</body>
+</html>
