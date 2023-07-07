@@ -8,18 +8,25 @@
     <style>
        body { 
         height: 100vh;
-        background-color: black;
+        /* background-color: black;
         background-image: url('imagens/wallpaper002.jpg');
         background-position: center center;
         background-repeat: no-repeat;
-      /*background-size: 100% 100%; Se adapta ao tamanho da tela 
+        /*background-size: 100% 100%; Se adapta ao tamanho da tela 
         background-size: contain; Faz com que 100% da imagem seja exibida o tempo todo */
-        background-size: cover; /*Cobre a tela inteira mesmo que para isso precise cortar partes da imagem */
+        /* background-size: cover; Cobre a tela inteira mesmo que para isso precise cortar partes da imagem */
+        /* background-attachment: scroll;  O fundo rola junto com o conteudo */
+        /* background-attachment: fixed; Rola o conteudo e deixa o fundo parado */
+
+        /* Shorthand - background
+        color > image > position > repeat > [size] > attachment*/
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover; /* O background-size ainda não é aceito pelo navegadores em uma shorthand por isso é preciso colocalo separado*/
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -30,6 +37,11 @@
 <body>
     <main>
         <h1>Teste de Imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non asperiores modi corrupti itaque totam a! Sequi perferendis odit in harum dolore voluptas illo quas nulla quod, expedita modi error quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, vero totam? Nobis aut cum nam consequatur eveniet asperiores commodi, corporis dolore reprehenderit fugit eos explicabo odio quia quam ratione aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt beatae? Placeat soluta eaque eius. Pariatur architecto praesentium, voluptatem est, mollitia quibusdam dolor quod repudiandae fugit ullam aspernatur inventore illum.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non asperiores modi corrupti itaque totam a! Sequi perferendis odit in harum dolore voluptas illo quas nulla quod, expedita modi error quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, vero totam? Nobis aut cum nam consequatur eveniet asperiores commodi, corporis dolore reprehenderit fugit eos explicabo odio quia quam ratione aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt beatae? Placeat soluta eaque eius. Pariatur architecto praesentium, voluptatem est, mollitia quibusdam dolor quod repudiandae fugit ullam aspernatur inventore illum.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non asperiores modi corrupti itaque totam a! Sequi perferendis odit in harum dolore voluptas illo quas nulla quod, expedita modi error quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, vero totam? Nobis aut cum nam consequatur eveniet asperiores commodi, corporis dolore reprehenderit fugit eos explicabo odio quia quam ratione aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt beatae? Placeat soluta eaque eius. Pariatur architecto praesentium, voluptatem est, mollitia quibusdam dolor quod repudiandae fugit ullam aspernatur inventore illum.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non asperiores modi corrupti itaque totam a! Sequi perferendis odit in harum dolore voluptas illo quas nulla quod, expedita modi error quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, vero totam? Nobis aut cum nam consequatur eveniet asperiores commodi, corporis dolore reprehenderit fugit eos explicabo odio quia quam ratione aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt beatae? Placeat soluta eaque eius. Pariatur architecto praesentium, voluptatem est, mollitia quibusdam dolor quod repudiandae fugit ullam aspernatur inventore illum.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non asperiores modi corrupti itaque totam a! Sequi perferendis odit in harum dolore voluptas illo quas nulla quod, expedita modi error quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, vero totam? Nobis aut cum nam consequatur eveniet asperiores commodi, corporis dolore reprehenderit fugit eos explicabo odio quia quam ratione aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt beatae? Placeat soluta eaque eius. Pariatur architecto praesentium, voluptatem est, mollitia quibusdam dolor quod repudiandae fugit ullam aspernatur inventore illum.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non asperiores modi corrupti itaque totam a! Sequi perferendis odit in harum dolore voluptas illo quas nulla quod, expedita modi error quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, vero totam? Nobis aut cum nam consequatur eveniet asperiores commodi, corporis dolore reprehenderit fugit eos explicabo odio quia quam ratione aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt beatae? Placeat soluta eaque eius. Pariatur architecto praesentium, voluptatem est, mollitia quibusdam dolor quod repudiandae fugit ullam aspernatur inventore illum.</p>
     </main>
 </body>
